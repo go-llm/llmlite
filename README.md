@@ -5,7 +5,7 @@
 [go-openai](https://github.com/sashabaranov/go-openai) is a popular OpenAI ChatGPT client for the Go programming language. 
 One might start playing with it by simply submitting prompts to ChatGPT API. But to utilize LLMs for production-grade projects, a lot of additional features might be needed:
 
-- 🔭 **Observability** — keep track of prompt performance and latencies by recording LLM execution logs (with potential anonymization)
+- 🔭 **Observability** — keep a log of LLM usage to monitor performance, cost, and latencies (with potential anonymization)
 - ⚙️ **Better de-coupling** — hardcoding prompts and execution parameters is not a good practice. De-coupling them from your code would enable a number of features:
   - No vendor lock-in
   - A|B testing for prompts/parameters/execution engines
