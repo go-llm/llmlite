@@ -6,11 +6,11 @@
 One might start playing with it by simply submitting prompts to ChatGPT API. But to utilize LLMs for production-grade projects, a lot of additional features might be needed:
 
 - 🔭 **Observability** — keep track of prompt performance and latencies by recording LLM execution logs (with potential anonymization)
-- ⚙️ **Better de-coupling** — hardcoding prompts and execution parameters is not a good practice. Decoupling them from your code would enable a number of features:
+- ⚙️ **Better de-coupling** — hardcoding prompts and execution parameters is not a good practice. De-coupling them from your code would enable a number of features:
   - No vendor lock-in
   - A|B testing for prompts/parameters/execution engines
   - Interactions with prompt engineering tools
-- 🚀 **Efficient execution** — to run LLMs fasater and cheaper
+- 🚀 **Efficient execution** — to run LLMs faster and cheaper
   - Caching
   - Rate-limiting
   - Retries
